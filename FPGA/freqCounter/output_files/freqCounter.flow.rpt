@@ -1,0 +1,115 @@
+Flow report for freqCounter
+Wed Nov 09 23:05:10 2016
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------+
+; Flow Summary                                                                ;
++---------------------------+-------------------------------------------------+
+; Flow Status               ; Successful - Wed Nov 09 23:05:08 2016           ;
+; Quartus II 64-Bit Version ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name             ; freqCounter                                     ;
+; Top-level Entity Name     ; freqCounter                                     ;
+; Family                    ; MAX II                                          ;
+; Device                    ; EPM570T100C5                                    ;
+; Timing Models             ; Final                                           ;
+; Total logic elements      ; 186 / 570 ( 33 % )                              ;
+; Total pins                ; 9 / 76 ( 12 % )                                 ;
+; Total virtual pins        ; 0                                               ;
+; UFM blocks                ; 0 / 1 ( 0 % )                                   ;
++---------------------------+-------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 11/09/2016 23:05:03 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; freqCounter         ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                  ;
++---------------------------------------+--------------------------------+---------------+-------------+------------+
+; Assignment Name                       ; Value                          ; Default Value ; Entity Name ; Section Id ;
++---------------------------------------+--------------------------------+---------------+-------------+------------+
+; COMPILER_SIGNATURE_ID                 ; 66619480580254.147870030302180 ; --            ; --          ; --         ;
+; MAX_CORE_JUNCTION_TEMP                ; 85                             ; --            ; --          ; --         ;
+; MIN_CORE_JUNCTION_TEMP                ; 0                              ; --            ; --          ; --         ;
+; POWER_EXT_SUPPLY_VOLTAGE_TO_REGULATOR ; 3.3V                           ; --            ; --          ; --         ;
+; PROJECT_OUTPUT_DIRECTORY              ; output_files                   ; --            ; --          ; --         ;
++---------------------------------------+--------------------------------+---------------+-------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 457 MB              ; 00:00:01                           ;
+; Fitter                    ; 00:00:02     ; 1.0                     ; 655 MB              ; 00:00:02                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 408 MB              ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 413 MB              ; 00:00:01                           ;
+; Total                     ; 00:00:06     ; --                      ; --                  ; 00:00:05                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; DESKTOP-2G1NK9M  ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; DESKTOP-2G1NK9M  ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; DESKTOP-2G1NK9M  ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; DESKTOP-2G1NK9M  ; Windows 7 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off freqCounter -c freqCounter
+quartus_fit --read_settings_files=off --write_settings_files=off freqCounter -c freqCounter
+quartus_asm --read_settings_files=off --write_settings_files=off freqCounter -c freqCounter
+quartus_sta freqCounter -c freqCounter
+
+
+

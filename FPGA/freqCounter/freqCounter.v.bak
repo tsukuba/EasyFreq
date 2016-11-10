@@ -1,0 +1,5 @@
+module freqCounter(
+							input CLOCK,
+							
+						);
+endmodule

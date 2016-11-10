@@ -1,0 +1,69 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'CLOCK'
+Slack : -9.301
+TNS   : -534.067
+
+Type  : Setup 'sample'
+Slack : -5.171
+TNS   : -131.821
+
+Type  : Setup 'shiftClk'
+Slack : -2.975
+TNS   : -11.930
+
+Type  : Setup 'shiftRst'
+Slack : 0.900
+TNS   : 0.000
+
+Type  : Hold 'shiftRst'
+Slack : -2.512
+TNS   : -69.241
+
+Type  : Hold 'shiftClk'
+Slack : 1.660
+TNS   : 0.000
+
+Type  : Hold 'CLOCK'
+Slack : 2.116
+TNS   : 0.000
+
+Type  : Hold 'sample'
+Slack : 2.116
+TNS   : 0.000
+
+Type  : Recovery 'shiftClk'
+Slack : -1.113
+TNS   : -5.565
+
+Type  : Recovery 'sample'
+Slack : -0.975
+TNS   : -29.782
+
+Type  : Removal 'shiftClk'
+Slack : 1.059
+TNS   : 0.000
+
+Type  : Removal 'sample'
+Slack : 1.218
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'CLOCK'
+Slack : -2.289
+TNS   : -2.289
+
+Type  : Minimum Pulse Width 'sample'
+Slack : -2.289
+TNS   : -2.289
+
+Type  : Minimum Pulse Width 'shiftClk'
+Slack : -2.289
+TNS   : -2.289
+
+Type  : Minimum Pulse Width 'shiftRst'
+Slack : -2.289
+TNS   : -2.289
+
+------------------------------------------------------------
